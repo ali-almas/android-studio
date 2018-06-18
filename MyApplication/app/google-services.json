@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "394120600054",
+    "firebase_url": "https://myapplication-16513.firebaseio.com",
+    "project_id": "myapplication-16513",
+    "storage_bucket": "myapplication-16513.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:394120600054:android:09061814d032560f",
+        "android_client_info": {
+          "package_name": "alialmasli.com.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "394120600054-prk4tp19590fjchd4gh4mvegjpt2ttlk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "alialmasli.com.myapplication",
+            "certificate_hash": "d9999453d2dea2b15f43802d253de53563e58d83"
+          }
+        },
+        {
+          "client_id": "394120600054-1c1ul2lcecvacdjofk4793pcd12c05eh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCQdGOR6oZNR_YZUgOGMVwSIaPSi6KYNGM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "394120600054-1c1ul2lcecvacdjofk4793pcd12c05eh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

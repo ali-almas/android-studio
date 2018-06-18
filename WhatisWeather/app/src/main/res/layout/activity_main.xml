@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.hp450.whatisweather.MainActivity">
+
+
+    <com.jgabrielfreitas.core.BlurImageView
+        android:id="@+id/backgroundImage"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:adjustViewBounds="true"
+        android:cropToPadding="true"
+        android:foregroundGravity="center"
+        android:scaleType="fitXY"
+        android:src="@drawable/background" />
+
+    <TextView
+        android:id="@+id/cityNameTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="150dp"
+        android:gravity="center_horizontal"
+        android:text="Enter city name"
+        android:textAlignment="center"
+        android:textColor="@android:color/background_light"
+        android:textSize="36sp" />
+
+    <EditText
+        android:id="@+id/cityName"
+        style="@style/AppTheme"
+        android:layout_width="260dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/cityNameTextView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp"
+        android:alpha="0.71"
+        android:background="@android:color/background_light"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:selectAllOnFocus="false"
+        android:singleLine="false"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/weatherButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cityName"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="42dp"
+        android:alpha="0.8"
+        android:background="?attr/colorButtonNormal"
+        android:elevation="0dp"
+        android:onClick="findWeather"
+        android:padding="5dp"
+        android:text="What is the weather?" />
+
+    <TextView
+        android:id="@+id/resultWeather"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="115dp"
+        android:textAlignment="center"
+        android:textColor="@android:color/background_light"
+        android:textSize="18sp" />
+</RelativeLayout>

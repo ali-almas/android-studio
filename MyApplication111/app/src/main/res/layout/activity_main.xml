@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.hp450.myapplication111.MainActivity">
+
+    <RelativeLayout
+        android:id="@+id/relativePurpleLayout"
+        android:layout_width="408dp"
+        android:layout_height="600dp"
+        tools:background="@android:color/holo_purple"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <EditText
+            android:id="@+id/username"
+            style="@android:style/Widget.DeviceDefault.AutoCompleteTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="230dp"
+            android:ems="10"
+            android:hint="Username"
+            android:inputType="textPersonName"
+            android:textAlignment="center" />
+
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/username"
+            android:layout_alignStart="@+id/username"
+            android:layout_below="@+id/username"
+            android:layout_marginTop="15dp"
+            android:ems="10"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:textAlignment="center"
+            tools:layout_editor_absoluteX="390dp"
+            tools:layout_editor_absoluteY="542dp" />
+
+        <Button
+            android:id="@+id/loginButton"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/password"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="11dp"
+            android:text="Log In"
+            tools:layout_editor_absoluteX="109dp"
+            tools:layout_editor_absoluteY="139dp" />
+
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>
